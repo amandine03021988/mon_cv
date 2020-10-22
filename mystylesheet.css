@@ -1,0 +1,85 @@
+@media all and (max-width: 1250px)
+{
+	{
+		width: auto;
+	}
+}
+
+
+
+
+
+body{
+	background-image: url(images/backgroundimage5.jpeg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center center;
+	background-attachment: scroll;
+}
+
+.flex_container{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-between;
+	padding-top: 25%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+
+}
+
+.element_1{
+
+	width: 20%;
+
+	
+	
+
+}
+
+.element_2{
+
+    width: 20%;
+}
+
+.element_3{
+	width: 20%;
+
+}
+
+.mon_nom{
+
+	font-size: 50px;
+	font-weight: bold;
+	
+}
+
+.gras_medium{
+
+	font-size: medium;
+	font-weight: bold;
+}
+
+.gras_medium2{
+
+	font-size: medium;
+	font-weight: bold;
+}
+
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: darkgray;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: medium;
+	margin-top: 150px;
+	
+}
+
+.inner footer{
+	
+	
+}
